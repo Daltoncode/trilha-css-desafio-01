@@ -47,14 +47,13 @@
   background-color: #d1ecf9;
 }
 
-/* Conteúdo principal */
+/* Main content */
 main {
   padding: 40px 20px;
   max-width: 900px;
   margin: auto;
 }
 
-/* Seções principais */
 #course-content h2,
 #professional-challenges h2 {
   font-size: 2rem;
@@ -89,26 +88,22 @@ main {
   font-weight: 900;
 }
 
-/* Seção transform-world com imagem fixa */
+/* Section Transform World com imagem fixa */
 #transform-world {
-  background-image: url('assets/images/woman-code.png');
+  background-image: url('../images/woman-code.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  min-height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 100px 10px;
   color: white;
   text-align: center;
+  padding: 100px 10px;
   font-weight: 700;
-  font-size: 2rem;
-  margin: 60px 0;
-  text-shadow: 1px 1px 6px black;
+  font-size: 1.8rem;
+  margin: 50px 0;
+  text-shadow: 1px 1px 5px #000;
 }
 
-/* Seção professional-challenges */
+/* Section professional challenges */
 #professional-challenges {
   text-align: center;
   margin-top: 40px;
@@ -128,7 +123,7 @@ main {
   line-height: 1.6;
 }
 
-/* Rodapé */
+/* Footer */
 footer {
   background-color: #121212;
   color: white;
