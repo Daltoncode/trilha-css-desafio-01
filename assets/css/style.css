@@ -15,12 +15,14 @@
 }
 
 .banner .logo img {
+  display: block;
+  margin: 0 auto 20px;
   width: 120px;
-  margin-bottom: 20px;
 }
 
 .banner h1 {
-  font-size: 2.8rem;
+  font-size: 3rem;
+  font-weight: 800;
   margin-bottom: 10px;
 }
 
@@ -44,7 +46,7 @@
 }
 
 .banner button:hover {
-  background-color: #d1ecf9;
+  background-color: #e1f1ff;
 }
 
 /* Main content */
@@ -52,6 +54,7 @@ main {
   padding: 40px 20px;
   max-width: 900px;
   margin: auto;
+  text-align: center;
 }
 
 #course-content h2,
@@ -71,6 +74,7 @@ main {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .module {
@@ -82,13 +86,13 @@ main {
   color: #0e7fdb;
   flex: 1;
   min-width: 200px;
+  max-width: 280px;
 }
 
 .module span {
   font-weight: 900;
 }
 
-/* Section Transform World com imagem fixa */
 #transform-world {
   background-image: url('../images/woman-code.png');
   background-size: cover;
@@ -96,23 +100,23 @@ main {
   background-attachment: fixed;
   color: white;
   text-align: center;
-  padding: 100px 10px;
+  padding: 120px 20px;
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin: 50px 0;
   text-shadow: 1px 1px 5px #000;
 }
 
-/* Section professional challenges */
 #professional-challenges {
   text-align: center;
   margin-top: 40px;
 }
 
 #professional-challenges img {
-  max-width: 100%;
+  max-width: 600px;
+  width: 100%;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 #professional-challenges p {
@@ -123,7 +127,6 @@ main {
   line-height: 1.6;
 }
 
-/* Footer */
 footer {
   background-color: #121212;
   color: white;
